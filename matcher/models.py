@@ -3,7 +3,7 @@ from django.utils.translation import ugettext as _
 from wealthmap.models import Opportunity
 
 
-class LongBeachOpportunity(Opportunity):
+class SanDiegoOpportunity(Opportunity):
     description = models.TextField()
     value_prop = models.CharField(max_length=255,
                                   null=False,

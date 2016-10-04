@@ -1,2 +1,2 @@
-# longbeach-resources
-Resource matching API for Long Beach.
+# san_diego_resources
+Resource matching API for San Diego.

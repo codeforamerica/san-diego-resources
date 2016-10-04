@@ -1,5 +1,5 @@
 """
-WSGI config for longbeach_resources project.
+WSGI config for san_diego_resources project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "longbeach_resources.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "san_diego_resources.settings")
 
 application = get_wsgi_application()
