@@ -1,1 +1,1 @@
-web: gunicorn san_diego_resources.wsgi --log-file -
+web: gunicorn san_diego_resources.heroku_wsgi --log-file -
