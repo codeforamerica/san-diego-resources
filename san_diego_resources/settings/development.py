@@ -5,7 +5,8 @@ from san_diego_resources.settings.base import *
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 ALLOWED_HOSTS = ['*']
-DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+
+DATABASES = {'default': dj_database_url.config(conn_max_age=600)}
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
