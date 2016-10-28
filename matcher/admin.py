@@ -9,8 +9,9 @@ from . import forms
 
 @admin.register(wm_models.get_search_model())
 class OpportunityAdmin(wm_admin.AddCreator):
-    form = forms.SearchModelForm
+    form = forms.OpportunityForm
     list_display = ('title', 'agency', 'updated_at')
     formfield_overrides = {
+        models.ManyToManyField: {'widget': CheckboxSelectMultiple},
         models.ManyToManyField: {'widget': CheckboxSelectMultiple},
     }
