@@ -142,5 +142,5 @@ REST_FRAMEWORK = {
 # E.g. SanDiegoOpportunity
 WEALTHMAP_SEARCHABLE_OPPORTUNITY = dict(
     app_label='matcher',
-    model_name='SanDiegoOpportunity'
+    model_name='Opportunity'
 )
