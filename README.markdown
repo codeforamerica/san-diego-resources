@@ -13,18 +13,24 @@ pip install -r requirements/app.txt
 
 Copy the local_settings file and update the settings to fit your machine.
 
-
+```bash
   cp local_settings.py.example local_settings.py
+```
 
 Create a database for the application by first logging into postgres (`psql`) then running:
 
+```
   CREATE DATABASE san_diego_resources;
+```
 
 Test that Django is working and pointed at your database(migrations not yet created).
 
+```bash
   ./manage.py migrate
+```
 
 Create a user to log in to and manage the application.
 
+```bash
   ./manage.py createsuperuser
-
+```
