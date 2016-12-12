@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'adminsortable2',
     'wealthmap',
     'matcher',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE_CLASSES = [
