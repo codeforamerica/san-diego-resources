@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'adminsortable2',
-    'wealthmap',
     'matcher',
+    'wealthmap',
     'widget_tweaks',
 ]
 
